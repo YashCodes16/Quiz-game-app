@@ -96,6 +96,8 @@ function allQues(){
         ques_ele.textContent = 'Quiz Completed!!'
         option_ele.textContent = ''
         option_ele.id = ''
+        next.remove()
+         
         }})
 
       option_ele.append(btn)
