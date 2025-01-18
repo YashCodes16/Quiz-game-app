@@ -58,6 +58,8 @@ let ques_ele = document.getElementById('question');
 let option_ele = document.getElementById('options')
 let score_ele = document.getElementById('score')
 let next = document.getElementById('next')
+let btn = document.getElementById('btn')
+
 let score = 0
 let currentQues =0
 
@@ -124,6 +126,7 @@ next.addEventListener('click',()=>{
   ques_ele.textContent = 'Quiz Completed!!'
   option_ele.textContent = ''
   option_ele.id = ''
+  btn.innerHTML = ''
   }
   score_ele.textContent =`Score: ${score}`
 })
